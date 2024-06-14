@@ -121,4 +121,5 @@ export const skillsData = [
   "MySql",
   "Firebase",
   "Framer Motion",
+  "Flutter"
 ] as const;

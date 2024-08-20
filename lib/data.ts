@@ -7,6 +7,10 @@ import VacationList from "@/public/vacationWihlist.png"
 import docFinderPro from "@/public/docfinderpro.png";
 import AmazonClone from "@/public/AmazonClone.png"
 import NewsWave from "@/public/NewsWave.png"
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaNodeJs, FaGitAlt, FaBootstrap, FaPython } from 'react-icons/fa';
+import { SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiRedux, SiExpress, SiCplusplus, SiMysql,  SiPostgresql, SiFlutter, SiCsharp } from 'react-icons/si';
+import { TbBrandFramerMotion } from "react-icons/tb";
+import { IoLogoFirebase } from "react-icons/io5";
 
 
 
@@ -104,22 +108,47 @@ export const projectsData = [
   
 ] as const;
 
+// export const skillsData = [
+//   "HTML",
+//   "CSS",
+//   "JavaScript",
+//   "TypeScript",
+//   "React",
+//   "Next.js",
+//   "Node.js",
+//   "Git",
+//   "Tailwind",
+//   "MongoDB",
+//   "Redux",
+//   "Express",
+//   "C++",
+//   "MySql",
+//   "Firebase",
+//   "PostgresSQL",
+//   "Framer Motion",
+//   "Flutter"
+// ] as const;
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "MongoDB",
-  "Redux",
-  "Express",
-  "C++",
-  "MySql",
-  "Firebase",
-  "Framer Motion",
-  "Flutter"
+  { name: "HTML", icon: FaHtml5 },
+  { name: "CSS", icon: FaCss3Alt },
+  { name: "BootStrap", icon: FaBootstrap },
+  { name: "Tailwind", icon: SiTailwindcss },
+  { name: "JavaScript", icon: FaJs },
+  { name: "TypeScript", icon: SiTypescript },
+  {name: "Java" , icon : FaJava},
+  { name: "Python" , icon: FaPython},
+  { name: "React", icon: FaReact },
+  { name: "Next.js", icon: SiNextdotjs },
+  { name: "Node.js", icon: FaNodeJs },
+  { name: "Git", icon: FaGitAlt },
+  { name: "MongoDB", icon: SiMongodb },
+  { name: "Redux", icon: SiRedux },
+  { name: "Express", icon: SiExpress },
+  { name: "C++", icon: SiCplusplus },
+  { name: "C#", icon: SiCsharp },
+  { name: "MySql", icon: SiMysql },
+  { name: "Firebase", icon: IoLogoFirebase },
+  { name: "PostgresSQL", icon: SiPostgresql },
+  { name: "Framer Motion", icon: TbBrandFramerMotion  },
+  { name: "Flutter", icon: SiFlutter },
 ] as const;

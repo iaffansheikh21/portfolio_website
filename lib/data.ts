@@ -4,9 +4,11 @@ import blogsite from "@/public/blogsite.png";
 import covid from "@/public/covid.png"
 import HMS from "@/public/HMS.png"
 import VacationList from "@/public/vacationWihlist.png"
-import docFinderPro from "@/public/docfinderpro.png";
+// import docFinderPro from "@/public/docfinderpro.png";
 import AmazonClone from "@/public/AmazonClone.png"
 import NewsWave from "@/public/NewsWave.png"
+import businessdirectory from "@/public/business_directory.png"
+import SmartTools from "@/public/smartTools.png"
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaNodeJs, FaGitAlt, FaBootstrap, FaPython } from 'react-icons/fa';
 import { SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiRedux, SiExpress, SiCplusplus, SiMysql,  SiPostgresql, SiFlutter, SiCsharp } from 'react-icons/si';
 import { TbBrandFramerMotion } from "react-icons/tb";
@@ -45,11 +47,11 @@ export const links = [
 export const experiencesData = [
  
   {
-    title: "Full-Stack Developer",
+    title: "Full-Stack Developer - FISTA SOLUTIONS",
     location: "Faisalabad, Pakistan",
     description:
-      "I am actively gaining hands-on experience in web development by working on real projects. This practical approach allows me to apply my skills and build a solid understanding of creating websites and applications.",
-    date: "2022 - present",
+    "I led a team in the creation and maintenance of web applications using JavaScript, React.js, and Node.js. My work involved leveraging Next.js with TypeScript to build a strong front-end, and I applied Tailwind CSS for efficient styling. I also implemented RESTful APIs and integrated them with both MongoDB and PostgreSQL databases. Additionally, I collaborated closely with stakeholders to establish project requirements and timelines.",
+    date: "2024 - present",
   },
 ] as const;
 
@@ -63,6 +65,20 @@ export const projectsData = [
     imageUrl: NewsWave,
   },
   {
+    title: "Smart SEO Tools",
+    description:
+      "A platform designed for creating and publishing blog posts, featuring rich text editing, commenting, and user profiles, along with Smart SEO tools. I developed this project during my internship using Next.js with TypeScript, Tailwind CSS, and PostgreSQL. The project was a collaborative effort with Chaudhry Bassam Tanvir",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript" , "PostgresSQL"],
+    imageUrl: SmartTools,
+  },
+  {
+    title: "FISTA Business Directory",
+    description:
+      "A project completed at FISTA Solutions in partnership with Chaudhry Bassam Tanvir, developed using Next.js with TypeScript, Tailwind CSS, and PostgreSQL.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript" , "PostgresSQL"],
+    imageUrl: businessdirectory,
+  },
+  {
     title: "Blog Website",
     description:
       "A blog website crafted for hands-on experience, featuring seamless integration with the Contentful API for dynamic and efficient content management.",
@@ -70,25 +86,11 @@ export const projectsData = [
     imageUrl: blogsite
   },
   {
-    title: "Vacation WishList",
-    description:
-      "Vacation WishList is a project utilizing HTML, Tailwind CSS, jQuery, and JavaScript to create a dynamic and stylish platform for planning dream vacations.",
-    tags: ["JQuery", "HTML", "Bootstrap5", "JavaScript" ],
-    imageUrl: VacationList,
-  },
-  {
     title: "Expense Tracker",
     description:
       "An expense tracker designed for hands-on experience and logic-building, fostering practical skills in financial management.",
     tags: [" Next.Js", "Typescript", "Tailwind CSS" , "React Graphs"],
     imageUrl: expenseTrackerImg ,
-  },
-  {
-    title: "Amazon Clone",
-    description:
-      "An Amazon clone project, meticulously crafted with HTML, CSS, and JavaScript, providing a hands-on experience in web development and dynamic functionality.",
-    tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: AmazonClone ,
   },
   {
     title: "Hotel Management System",
@@ -104,6 +106,20 @@ export const projectsData = [
     tags: ["HTML", "Javascript", "Bootstrap5", "JQuery"],
     imageUrl: covid ,
   },
+  {
+    title: "Amazon Clone",
+    description:
+      "An Amazon clone project, meticulously crafted with HTML, CSS, and JavaScript, providing a hands-on experience in web development and dynamic functionality.",
+    tags: ["HTML", "CSS", "Javascript"],
+    imageUrl: AmazonClone ,
+  },
+  {
+    title: "Vacation WishList",
+    description:
+      "Vacation WishList is a project utilizing HTML, Tailwind CSS, jQuery, and JavaScript to create a dynamic and stylish platform for planning dream vacations.",
+    tags: ["JQuery", "HTML", "Bootstrap5", "JavaScript" ],
+    imageUrl: VacationList,
+  }
   
   
 ] as const;

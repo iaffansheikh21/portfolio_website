@@ -4,6 +4,7 @@ import SectionHeading from './section-heading';
 import { experiencesData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 import { motion } from "framer-motion";
+import { MdLocationPin } from "react-icons/md";
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
@@ -25,7 +26,10 @@ export default function Experience() {
             <h3 className="text-lg font-semibold mb-2 dark:text-white/80">{experience.title}</h3>
             <p className="text-gray-600 mb-2 dark:text-white/70">{experience.date}</p>
             <p className="text-gray-700 mb-4 dark:text-white/70">{experience.description}</p>
-            <p className="text-red-500">Location: <span className='text-gray-600 dark:text-white/75'> {experience.location}</span></p>
+            <p className="text-red-500 flex items-center">
+              <MdLocationPin />
+              <span className='text-gray-600 dark:text-white/75 ml-2'>{experience.location}</span>
+            </p>
           </div>
         ))}
       </div>

@@ -9,10 +9,12 @@ import AmazonClone from "@/public/AmazonClone.png"
 import NewsWave from "@/public/NewsWave.png"
 import businessdirectory from "@/public/business_directory.png"
 import SmartTools from "@/public/smartTools.png"
+import Portfolio from "@/public/portfolio.png"
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaNodeJs, FaGitAlt, FaBootstrap, FaPython } from 'react-icons/fa';
 import { SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiRedux, SiExpress, SiCplusplus, SiMysql,  SiPostgresql, SiFlutter, SiCsharp } from 'react-icons/si';
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { IoLogoFirebase } from "react-icons/io5";
+import Link from "next/link";
 
 
 
@@ -57,18 +59,19 @@ export const experiencesData = [
 
 export const projectsData = [
   
+
   {
-    title: "The NewsWave",
+    title: "Portfolio Website",
     description:
-      "A news platform leveraging NewsAPI for content, with integrated web development APIs for easy news sharing, ensuring users access up-to-date information effortlessly.",
-    tags: ["Next.js", "Tailwind CSS", "TypeScript" , "News API"],
-    imageUrl: NewsWave,
+      "My personal portfolio website highlights my work as a developer, showcasing various projects, contact information and my expertise in modern web technologies.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript" , "Framer-Motion"],
+    imageUrl: Portfolio,
   },
   {
     title: "Smart SEO Tools",
     description:
-      "A blog platform with rich text editing, commenting, user profiles, and Smart SEO tools, developed during my internship using Next.js with TypeScript, Tailwind CSS, and PostgreSQL in collaboration with Chaudhry Bassam Tanvir.",
-    tags: ["Next.js", "Tailwind CSS", "TypeScript" , "PostgresSQL"],
+     "A blog platform with rich text editing, commenting, user profiles, and Smart SEO tools, developed during my internship in collaboration with Chaudhry Bassam Tanvir.",
+      tags: ["Next.js", "Tailwind CSS", "TypeScript" , "PostgresSQL"],
     imageUrl: SmartTools,
   },
   {
@@ -77,6 +80,13 @@ export const projectsData = [
       "A project completed at FISTA Solutions in partnership with Chaudhry Bassam Tanvir, developed using Next.js with TypeScript, Tailwind CSS, and PostgreSQL.",
     tags: ["Next.js", "Tailwind CSS", "TypeScript" , "PostgresSQL"],
     imageUrl: businessdirectory,
+  },
+  {
+    title: "The NewsWave",
+    description:
+      "A news platform leveraging NewsAPI for content, with integrated web development APIs for easy news sharing, ensuring users access up-to-date information effortlessly.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript" , "News API"],
+    imageUrl: NewsWave,
   },
   {
     title: "Blog Website",

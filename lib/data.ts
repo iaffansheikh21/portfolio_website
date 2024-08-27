@@ -51,7 +51,7 @@ export const experiencesData = [
     location: "Faisalabad, Pakistan",
     description:
     "I led a team in the creation and maintenance of web applications using JavaScript, React.js, and Node.js. My work involved leveraging Next.js with TypeScript to build a strong front-end, and I applied Tailwind CSS for efficient styling. I also implemented RESTful APIs and integrated them with both MongoDB and PostgreSQL databases. Additionally, I collaborated closely with stakeholders to establish project requirements and timelines.",
-    date: "2024 - present",
+    date: "2024 - Present",
   },
 ] as const;
 
@@ -67,12 +67,12 @@ export const projectsData = [
   {
     title: "Smart SEO Tools",
     description:
-      "A platform designed for creating and publishing blog posts, featuring rich text editing, commenting, and user profiles, along with Smart SEO tools. I developed this project during my internship using Next.js with TypeScript, Tailwind CSS, and PostgreSQL. The project was a collaborative effort with Chaudhry Bassam Tanvir",
+      "A blog platform with rich text editing, commenting, user profiles, and Smart SEO tools, developed during my internship using Next.js with TypeScript, Tailwind CSS, and PostgreSQL in collaboration with Chaudhry Bassam Tanvir.",
     tags: ["Next.js", "Tailwind CSS", "TypeScript" , "PostgresSQL"],
     imageUrl: SmartTools,
   },
   {
-    title: "FISTA Business Directory",
+    title: "Business Directory",
     description:
       "A project completed at FISTA Solutions in partnership with Chaudhry Bassam Tanvir, developed using Next.js with TypeScript, Tailwind CSS, and PostgreSQL.",
     tags: ["Next.js", "Tailwind CSS", "TypeScript" , "PostgresSQL"],

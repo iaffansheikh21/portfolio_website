@@ -10,11 +10,11 @@ import NewsWave from "@/public/NewsWave.png"
 import businessdirectory from "@/public/business_directory.png"
 import SmartTools from "@/public/smartTools.png"
 import Portfolio from "@/public/portfolio.png"
+import BD from "@/public/BD(MAS).png"
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaNodeJs, FaGitAlt, FaBootstrap, FaPython } from 'react-icons/fa';
 import { SiTypescript, SiNextdotjs, SiTailwindcss, SiMongodb, SiRedux, SiExpress, SiCplusplus, SiMysql,  SiPostgresql, SiFlutter, SiCsharp } from 'react-icons/si';
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { IoLogoFirebase } from "react-icons/io5";
-import Link from "next/link";
 
 
 
@@ -68,6 +68,13 @@ export const projectsData = [
     imageUrl: Portfolio,
   },
   {
+    title: "ListCo",
+    description:
+      "I developed this platform during my internship at FISTA Solutions. It serves as a comprehensive business directory, enabling users to efficiently search and connect with various services.",
+    tags: ["Next.js", "Tailwind CSS", "TypeScript" , "PostgresSQL"],
+    imageUrl: BD,
+  },
+  {
     title: "Smart SEO Tools",
     description:
      "A blog platform with rich text editing, commenting, user profiles, and Smart SEO tools, developed during my internship in collaboration with Chaudhry Bassam Tanvir.",
@@ -77,7 +84,7 @@ export const projectsData = [
   {
     title: "Business Directory",
     description:
-      "A project completed at FISTA Solutions in partnership with Chaudhry Bassam Tanvir, developed using Next.js with TypeScript, Tailwind CSS, and PostgreSQL.",
+      "Developed at FISTA Solutions with Chaudhry Bassam Tanvir, this platform provides an intuitive, scalable solution for efficient business search and discovery",
     tags: ["Next.js", "Tailwind CSS", "TypeScript" , "PostgresSQL"],
     imageUrl: businessdirectory,
   },

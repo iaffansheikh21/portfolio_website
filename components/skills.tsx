@@ -130,7 +130,7 @@ export default function Skills() {
       id="skills"
     >
       <SectionHeading title="My Skills" />
-      <ul className="flex flex-wrap justify-center gap-6 text-lg text-gray-800">
+      <ul className="flex flex-wrap justify-center gap-6 text-lg text-gray-800 cursor-pointer">
         {skillsData.map((skill, index) => (
           <Tooltip key={index} text={skill.name}>
             <motion.li

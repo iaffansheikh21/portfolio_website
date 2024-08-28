@@ -181,7 +181,7 @@ export const skillsData = [
   { name: "C#", icon: SiCsharp },
   { name: "MySql", icon: SiMysql },
   { name: "Firebase", icon: IoLogoFirebase },
-  { name: "PostgresSQL", icon: SiPostgresql },
+  { name: "PostgreSQL", icon: SiPostgresql },
   { name: "Framer Motion", icon: TbBrandFramerMotion  },
   { name: "Flutter", icon: SiFlutter },
 ] as const;

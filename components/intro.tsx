@@ -31,14 +31,15 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://firebasestorage.googleapis.com/v0/b/portfolio-affan.appspot.com/o/portfolio_ii.jpeg?alt=media&token=981c7077-689f-425d-8ed0-00aaa6bc0dde"
-              alt="Ricardo portrait"
-              width="192"
-              height="192"
-              quality="95"
+              src="/MAS21.jpg"
+              alt="Muhammad Affan Sheikh"
+              width={400}
+              height={400}
+              quality={95}
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-[200px] w-[200px] rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
+
           </motion.div>
 
           <motion.span
@@ -118,7 +119,7 @@ export default function Intro() {
           href="https://www.instagram.com/iaffansheikh21/"
           target="_blank"
         >
-         <FaInstagram />
+          <FaInstagram />
         </a>
       </motion.div>
     </section>
